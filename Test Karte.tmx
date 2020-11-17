@@ -4,19 +4,23 @@
   <export target="Test Karte.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="test2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
   <image source="test2.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="2" name="test_gras" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="test_gras.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="3" name="stein2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <properties>
-   <property name="collides" type="bool" value="true"/>
-  </properties>
   <image source="stein2.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer id="1" name="start" width="14" height="10">
   <data encoding="csv">
@@ -25,14 +29,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,2,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="ground" width="14" height="10">
+ <layer id="3" name="ground" width="14" height="10" opacity="0.68">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,2,2,2,2,3,2,2,2,2,2,2,2,1,
