@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="14" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="14" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
  <editorsettings>
   <export target="Test Karte.json" format="json"/>
  </editorsettings>
@@ -36,7 +36,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="ground" width="14" height="10" opacity="0.68">
+ <layer id="3" name="ground" width="14" height="10">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,2,2,2,2,3,2,2,2,2,2,2,2,1,
@@ -48,6 +48,23 @@
 1,2,2,2,2,1,2,1,1,1,1,2,2,1,
 1,2,2,2,2,1,2,2,2,2,2,2,2,1,
 1,1,1,1,1,1,2,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="4" name="openWebsite" width="14" height="10">
+  <properties>
+   <property name="openWebsite" value="https://heise.de"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="2" name="floorLayer"/>
