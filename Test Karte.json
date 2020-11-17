@@ -53,16 +53,49 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":1,
          "firstgid":1,
-         "source":"Test Tileset.tsx"
+         "image":"pixelart_test.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"Test Tileset",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":1,
          "firstgid":2,
-         "source":"test2.tsx"
+         "image":"test2.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"test2",
+         "properties":[
+                {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }],
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":1,
          "firstgid":3,
-         "source":"test_gras.tsx"
+         "image":"test_gras.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "margin":0,
+         "name":"test_gras",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
